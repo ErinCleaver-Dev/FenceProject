@@ -1,4 +1,12 @@
-﻿Public Class Form1
+﻿''' <summary>
+''' Name:  Erin Cleaver
+''' Class:  Visual Basic Programming II CIS225.6306.W22
+''' Week:  1/22/2021
+''' </summary>
+
+'
+
+Public Class Form1
     Private Sub bntCalculate_Click(sender As Object, e As EventArgs) Handles bntCalculate.Click
 
         Dim rectangle = New Rectangle(txtLength.Text.Trim, txtWidth.Text.Trim)
